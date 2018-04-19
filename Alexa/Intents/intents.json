@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "insect helper",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetStatusFromAllIntent",
+                    "slots": [],
+                    "samples": [
+                        "get all",
+                        "get all data",
+                        "all data",
+                        "all crates",
+                        "data"
+                    ]
+                },
+                {
+                    "name": "GetStatusFromIntent",
+                    "slots": [
+                        {
+                            "name": "CrateName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "get status from {CrateName}",
+                        "the status of {CrateName}",
+                        "the status {CrateName}",
+                        "get status {CrateName}",
+                        "status from {CrateName}"
+                    ]
+                },
+                {
+                    "name": "GetTemperatureIntent",
+                    "slots": [],
+                    "samples": [
+                        "temperature",
+                        "me the temperature",
+                        "what is the temperature",
+                        "get temperature",
+                        "the temperature"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

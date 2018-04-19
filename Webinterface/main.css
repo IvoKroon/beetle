@@ -1,0 +1,89 @@
+body {
+	font-family: "Comfortaa", Light, regular, bold;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.row {
+	margin-top: 10em;
+}
+
+body {
+	background-color: #0078ff;
+}
+
+.assistent {
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.content {
+	background-color: #f4f4f4;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 100%;
+	padding-top: 110px;
+	border-radius: 4px;
+	padding-bottom: 110px;
+}
+
+.dashboard {
+	/*	background-color: #f4f4f4;*/
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.settings {
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.fab {
+	color: #0078ff;
+	font-size: 4em;
+	margin: 0.2em;
+}
+
+.fas {
+	color: #0078ff;
+	font-size: 4em;
+	margin: 0.2em;
+}
+
+.foutmelding {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	float: right;
+	font-size: 9px;
+	color: red;
+	background-color: lightcoral;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.melding {
+	color: red;
+	font-size: 11px;
+}
