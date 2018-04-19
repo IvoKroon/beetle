@@ -11,6 +11,11 @@ Stuff that needs to be done:
 * Secure the API
 * Fill database with recipes
 
+# Alexa
+If you want to get the code of Alexa working you need 2 things.
+You first need an Amazon AWS account https://aws.amazon.com/ here you create an Lambda function and add the code.
+After this you need an Amazon developer account https://developer.amazon.com/ here you can create the skill and add the intents code.
+
 # Web interface
 This is the skeleton for the interface where you can watch the status of the different crates. At the moment this the data isn't dynamic and has standard data.
 
