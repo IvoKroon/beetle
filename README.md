@@ -13,7 +13,7 @@ Stuff that needs to be done:
 
 # Alexa
 If you want to get the code of Alexa working you need 2 things.
-You first need an Amazon AWS account https://aws.amazon.com/ here you create an Lambda function and add the code.
+You first need a Amazon AWS account https://aws.amazon.com/ here you create an Lambda function and add the code.
 After this you need an Amazon developer account https://developer.amazon.com/ here you can create the skill and add the intents code.
 
 # Web interface
