@@ -2,9 +2,9 @@
 const Alexa = require('alexa-sdk');
 const HttpHandler = require('./httpHandler');
 
-const APP_ID = 'amzn1.ask.skill.1cae37c7-c3db-4fb2-be9b-32a92a0a94ca';
+const APP_ID = '';
 
-const USER_ID = '5ac7cdfb82dac571d6c41845';
+const USER_ID = '';
 
 const SKILL_NAME = 'Beetle';
 const HELP_MESSAGE = 'You can ask stuff about your crates.';
